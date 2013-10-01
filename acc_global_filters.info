@@ -1,0 +1,10 @@
+name = Access Global Filters
+description = Provide funtionality to set the Global Filters for Humanitarian Access Module
+core = 7.x
+package = Humanitarian Access
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = global_filter_num_filters
+features[variable][] = global_filters
