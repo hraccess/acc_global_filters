@@ -106,19 +106,19 @@ function acc_global_filters_strongarm() {
       'global_php_default' => '',
     ),
     7 => array(
-      'name' => '',
-      'block' => NULL,
-      'uses_view' => NULL,
-      'field' => NULL,
-      'view' => NULL,
-      'widget' => NULL,
-      'convert_to_range' => NULL,
-      'label' => NULL,
-      'option_all_text' => NULL,
-      'confirm_question' => NULL,
-      'set_on_select' => NULL,
-      'global_field_or_view_default' => NULL,
-      'global_php_default' => NULL,
+      'name' => 'field_type_of_policy',
+      'block' => 'global_filter_9',
+      'uses_view' => '0',
+      'field' => 'field_type_of_policy',
+      'view' => '',
+      'widget' => 'default',
+      'convert_to_range' => 0,
+      'label' => '',
+      'option_all_text' => '',
+      'confirm_question' => '',
+      'set_on_select' => 0,
+      'global_field_or_view_default' => '',
+      'global_php_default' => '',
     ),
   );
   $export['global_filters'] = $strongarm;
@@ -127,7 +127,7 @@ function acc_global_filters_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'global_filter_num_filters';
-  $strongarm->value = '6';
+  $strongarm->value = '10';
   $export['global_filter_num_filters'] = $strongarm;
 
   return $export;

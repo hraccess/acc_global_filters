@@ -3,6 +3,7 @@ description = Provide funtionality to set the Global Filters for Humanitarian Ac
 core = 7.x
 package = Humanitarian Access
 version = 7.x-1.0
+project = acc_global_filters
 dependencies[] = acc_impediments
 dependencies[] = acc_incidents
 dependencies[] = acc_restrictions
